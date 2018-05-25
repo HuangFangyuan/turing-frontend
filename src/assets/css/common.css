@@ -1,0 +1,38 @@
+.title {
+  font-size: 30px;
+  border-bottom: 1px solid #edeff2;
+}
+.form {
+  margin-top: 50px;
+  width: 500px;
+}
+.task-container {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.task {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  border: 1px solid #ebeef5;
+  font-size: 30px;
+  font-weight: 400;
+  background-color: #f0ebc1;
+}
+
+.task:hover {
+  background-color: #f0e988;
+  transition: 0.5s;
+}
+
+.pagination {
+  margin-top:50px;
+}
